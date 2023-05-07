@@ -1,9 +1,10 @@
 echo off
 
-echo installing WSL
+echo Installing Windows Subsystem for Linux (WSL)
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
-echo Installing Windows Subsystem for Linux (WSL)
-echo Using Debian
-wsl.exe --install Debian --web-download -n
+echo Installing Debian
+wsl.exe --install Debian --web-download
+wsl -e chmod 755 ./debiansetup.sh
+
