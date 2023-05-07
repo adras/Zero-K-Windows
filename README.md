@@ -8,6 +8,7 @@ Since compilation on windows is considered troublesome this project relies on Wi
 
 Next, we're installing wsl
 * open a command line as administrator
+* Navigate to the directory of the repository you just cloned. e.g. C:\myrepos\Zero-K-Windows
 * Execute ```setupenv.bat```
 When this is the first time you install WSL on your machine, of if the following steps cause some trouble, 
 make sure to reboot Windows after this step.
