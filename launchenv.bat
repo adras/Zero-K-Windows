@@ -1,3 +1,4 @@
 echo off
-echo Launching debian
-wsl -d Debian
+set DISTRIBUTION=Ubuntu
+echo Launching %DISTRIBUTION%
+wsl -d %DISTRIBUTION%
