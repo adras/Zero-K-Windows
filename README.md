@@ -19,7 +19,7 @@ To start WSL (with correct paths), use:
 * Execute ```launchenv.bat```
 
 Now you should be within the linux shell. From here enter:
-* ```./debiansetup.sh```
+* ```./linuxsetup.sh```
 
 This sets up all the packages which are required for compilation
 
@@ -29,4 +29,4 @@ After that, you can start compiling spring. To do that:
 * ```make spring```
 * (optional) ```install spring```
 
-The ```setupenv.bat``` and ```debiansetup.sh``` only need to be run once for installation.
+The ```setupenv.bat``` and ```linuxsetup.sh``` only need to be run once for installation.

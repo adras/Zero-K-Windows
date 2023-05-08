@@ -12,6 +12,6 @@ sudo apt-get --assume-yes install libsdl2-dev libglew-dev libdevil-dev libjsoncp
 sudo apt-get --assume-yes install ccache fontconfig libfreetype6-dev clang-format
 sudo apt-get --assume-yes install python2 default-jdk lld
 
+# Not sure of a better way to make clang the default
+sudo apt-get --assume-yes reinstall clang
 echo "Done"
-
-#grep -qxF 'export LD=ld.gold' ~/.bashrc || echo 'export LD=ld.gold' >> ~/.bashrc
